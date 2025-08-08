@@ -15,6 +15,13 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "success",
+    message: "API is running 🚀",
+    timestamp: new Date().toISOString(),
+  });
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/products", productRoutes);
