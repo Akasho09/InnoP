@@ -160,5 +160,3 @@ ts-node-dev for hot reload
 
 # 📜 License
 MIT License © 2025 Akash Ahmad Malik
-
-If you want, I can also **add example API request/response bodies** so your README doubles as a mini API documentation for frontend developers. That way, anyone can start consuming your backend immediately without guessing request formats.
